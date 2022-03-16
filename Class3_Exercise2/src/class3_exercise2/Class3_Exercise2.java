@@ -15,7 +15,7 @@ public class Class3_Exercise2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Teste");
+        
     }
     
 }
