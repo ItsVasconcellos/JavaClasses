@@ -15,7 +15,14 @@ public class Class6_Example1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        DefaultCar car1;
+        TurboCar car2;
+        car1 = new DefaultCar();
+        car2 = new TurboCar();
+        
+        car1.turnOn();
+        car2.startTurbo();
+        car2.turnOn();
     }
     
 }
