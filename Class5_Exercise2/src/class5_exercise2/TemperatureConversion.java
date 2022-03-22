@@ -10,11 +10,11 @@ package class5_exercise2;
  * @author Fernando
  */
 public class TemperatureConversion {
-    public double celciusToF(double celcius){
+    public static double celciusToF(double celcius){
         double result = (celcius*1.8) + 32;
         return result;
     }
-    public double fToCelcius(double fahrenheint){
+    public static double fToCelcius(double fahrenheint){
         double result = (fahrenheint-32)/1.8;
         return result;
     }
