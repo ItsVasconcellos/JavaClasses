@@ -11,6 +11,9 @@ package class6_example1;
  */
 public class TurboCar extends DefaultCar {
     boolean turbo;
+    public TurboCar(){
+        
+    }
     public TurboCar(String manufacture){
         super(manufacture);
     }

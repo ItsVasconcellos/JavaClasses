@@ -12,6 +12,9 @@ package class6_example1;
 public class DefaultCar {
     boolean turnedOn;
     private String manufacturer;
+    public DefaultCar(){
+        
+    }
     public DefaultCar(String manufacture){
         this.manufacturer = manufacture;
     }
