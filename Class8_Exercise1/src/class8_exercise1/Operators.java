@@ -12,4 +12,21 @@ package class8_exercise1;
 public class Operators extends Functionary{
     private int stationCode;
     
+    public Operators(double sallary, String name, int stationCode){
+        super(sallary,name);
+        stationCode = this.stationCode;
+    }
+    
+    public int getStationCode() {
+        return stationCode;
+    }
+
+    public void setStationCode(int stationCode) {
+        this.stationCode = stationCode;
+    }
+    
+    public void showing(){
+        super.showing();
+        System.out.println("Codigo de estação de trabalho: " + this.stationCode);
+    }
 }
