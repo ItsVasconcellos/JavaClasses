@@ -11,6 +11,11 @@ package class8_exercise2;
  */
 public class SavingAccount extends BankAccount{
     private int diaRendimento;
+    
+    public SavingAccount(String client, int num, double bal, int dia){
+        super(client,num,bal);
+        this.diaRendimento = dia;
+    }
 
     public int getDiaRendimento() {
         return diaRendimento;
@@ -20,7 +25,7 @@ public class SavingAccount extends BankAccount{
         this.diaRendimento = diaRendimento;
     }
     
-    public void newBalance(float tax){
+    public void newBalance(double tax){
         this.setBalance(this.getBalance()*(1+tax));
     }
     

@@ -3,23 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package class8_exercise2;
+package class8_exercise3;
 
 /**
  *
  * @author Fernando
  */
-public class Class8_Exercise2 {
+public class Class8_Exercise3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            BankAccount b1 = new BankAccount("Roberto",120,10000);
-            SavingAccount s1 = new SavingAccount("Pedro",140,7000,1);
-            SpecialAccount sp1 = new SpecialAccount("Rebeca",150,9000,2000);
-            
-            s1.newBalance(0.8);
+        NewProperty n1 = new NewProperty(1,100000,"Rua Nick Lauda", 20000);
+        UsedProperty u1 = new UsedProperty(2,120000,"R. Paschoal Marmo, 1888 - Jardim Nova Italia, Limeira - SP, 13484-431 ", 10000);
+        
+        n1.show();
+        u1.show();
     }
     
 }

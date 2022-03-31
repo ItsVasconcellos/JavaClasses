@@ -13,6 +13,12 @@ public class BankAccount {
     private String client;
     private int accountNumber;
     private double balance;
+    
+    public BankAccount(String client, int num, double bal){
+        this.client = client;
+        this.accountNumber = num;
+        this.balance = bal;
+    }
 
     public String getClient() {
         return client;
@@ -39,4 +45,10 @@ public class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+    
+    public void show(){
+        System.out.printf("Cliente: %s\nN. Conta: %d\nSaldo: %.2f", client, accountNumber, balance);
+
+    }
+    
 }

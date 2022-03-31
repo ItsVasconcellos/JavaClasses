@@ -12,6 +12,11 @@ package class8_exercise2;
 public class SpecialAccount extends BankAccount{
     private float limit;
     
+    public SpecialAccount(String client, int code, double bal, float limit){
+        super(client,code,bal);
+        this.limit = limit;
+    }
+    
     public void withdraw(float quantity){
         if(this.getBalance() - quantity < (- limit) ){ return;}
         else{ this.setBalance(this.getBalance() - quantity);}
