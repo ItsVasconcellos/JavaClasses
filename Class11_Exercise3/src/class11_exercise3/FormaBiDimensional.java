@@ -9,7 +9,5 @@ package class11_exercise3;
  *
  * @author Fernando
  */
-public class FormaBiDimensional extends Forma{
-    
-    
+public abstract class FormaBiDimensional extends Forma{
 }

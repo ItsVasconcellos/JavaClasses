@@ -9,11 +9,6 @@ package class11_exercise3;
  *
  * @author Fernando
  */
-public class FormaTriDimensional extends Forma{
-    public void ObterForma(){
-        
-    }
-    public void ObterVolume(){
-        
-    }
+public abstract class FormaTriDimensional extends Forma{
+    public abstract double ObterVolume();
 }

@@ -9,8 +9,6 @@ package class11_exercise3;
  *
  * @author Fernando
  */
-public class Forma {
-    public void obterArea(){
-        
-    }
+public abstract class Forma {
+    public abstract double obterArea();
 }
