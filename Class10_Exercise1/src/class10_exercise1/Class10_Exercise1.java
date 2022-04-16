@@ -3,24 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package class8_exercise2;
+package class10_exercise1;
 
 /**
  *
  * @author Fernando
  */
-public class Class8_Exercise2 {
+public class Class10_Exercise1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            BankAccount b1 = new BankAccount("Roberto",120,10000);
-            SavingAccount s1 = new SavingAccount("Pedro",140,7000,1);
-            SpecialAccount sp1 = new SpecialAccount("Rebeca",150,9000,2000);
-            
-            s1.newBalance(0.08);
-            
+        Animal a1 = new Dog("Jesus",17);
+        Animal a2 = new Horse("Lando",10);
+        Animal a3 = new Sloth("Baiano",5);
+        
+        a1.makesNoise();
+        a2.makesNoise();
+        a3.makesNoise();
     }
     
 }
